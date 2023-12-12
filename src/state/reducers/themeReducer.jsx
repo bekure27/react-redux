@@ -1,4 +1,4 @@
-// themeReducer.js
+
 import { SET_THEME, TOGGLE_THEME } from '../action-creator/index';
 
 const themeReducer = (state = 'light', action) => {

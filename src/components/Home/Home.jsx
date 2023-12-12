@@ -1,4 +1,3 @@
-
 import { useDispatch, useSelector } from 'react-redux';
 import { logout,toggleTheme } from '../../state/action-creator/index'; 
 
@@ -7,7 +6,6 @@ function Home() {
   const dispatch = useDispatch();
   const user = useSelector((state) => state.auth.user);
   const theme = useSelector((state) => state.theme);
-
   const handleLogout = () => {
     dispatch(logout());
   };
